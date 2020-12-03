@@ -1,0 +1,101 @@
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+      background: #1C2331!important;
+  }
+
+  
+
+
+
+}
+body,html{
+  height:100%;
+  width:100%;
+  overflow-x: hidden;
+  background-color: rgb(245,245,245);
+}
+
+.navbar{
+  background-color:rgba(0,0,0,.2)
+}
+
+.page-footer,.top-nav-collapse
+{
+  background-color:#1C2331
+
+}
+
+@media only screen and (max-width:768px){
+  .navbar{background-color:#1C2331
+  }
+}
+
+
+  .product-grid{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  
+  }
+  
+.product-grid:hover{
+     box-shadow: 10px 10px 5px #888888;
+  }
+
+
+.image{
+  position: relative;
+}
+
+
+.overlay{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 0;
+  right:0;
+  height:100%;
+  width:100%;
+  opacity:0;
+  transition: -5s ease;
+  background-color: rgba(67,68,68,0.7);
+
+}
+
+.image:hover .overlay{
+opacity: 1;
+
+}
+
+.detail{
+  color:#ffff;
+  font-size: 20px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+
+
+
+
+.buynow{
+
+width:100%;
+border:2px solid black;
+}
+
+.foo{
+  background-color:grey;
+}
+
+
+
+.footer-link{
+
+  text-decoration: none;
+  color:white;
+
+}
